@@ -1,0 +1,4 @@
+- `import numpy as np: `Imports NumPy For Numerical Operations
+- `np.asarray(x, dtype=float): `Converts Input Into A NumPy Array And Ensures Float Calculations
+- `np.exp(-x): `Calculates The Exponential Value For Each Input Element
+- `1 / (1 + np.exp(-x)): `Applies The Sigmoid Formula And Returns The Result
