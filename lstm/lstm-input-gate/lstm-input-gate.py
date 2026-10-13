@@ -24,5 +24,4 @@ def input_gate(h_prev: np.ndarray, x_t: np.ndarray,
 
     return {
         "input_gate": np.asarray(input_gate_values, dtype=np.float64),
-        "candidate_state": np.asarray(candidate_state, dtype=np.float64)
-    }
+        "candidate_state": np.asarray(candidate_state, dtype=np.float64)}
