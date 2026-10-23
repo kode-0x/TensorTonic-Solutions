@@ -1,5 +1,4 @@
-def wordpiece_tokenize(text: str, vocab: dict,
-                       unk_token: str = "[UNK]", max_word_length: int = 100) -> list:
+def wordpiece_tokenize(text: str, vocab: dict, unk_token: str = "[UNK]", max_word_length: int = 100) -> list:
     """
     Returns the WordPiece tokens as a list of strings.
     """
