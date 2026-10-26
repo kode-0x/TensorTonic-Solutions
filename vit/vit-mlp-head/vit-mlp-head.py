@@ -1,6 +1,6 @@
 import numpy as np
 
-def classification_head(encoder_output: np.ndarray,W_head: np.ndarray) -> np.ndarray:
+def classification_head(encoder_output: np.ndarray, W_head: np.ndarray) -> np.ndarray:
     """
     Returns float64 class logits with shape (B, C).
     """
